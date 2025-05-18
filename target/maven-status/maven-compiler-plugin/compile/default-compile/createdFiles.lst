@@ -1,0 +1,4 @@
+com\utp\config\ApplicationConfig.class
+com\utp\model\User.class
+com\utp\service\GreetingService.class
+com\utp\service\AuthService.class

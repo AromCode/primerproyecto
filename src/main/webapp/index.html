@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>SOA Web Service</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    </head>
+    <body>
+        <h1>Servicios SOA</h1>
+        <h2>Cuenta con los siguientes metodos:</h2>
+        <h2><b>Metodo Registrar</b></h2>
+        <p>POST: http://localhost:8080/SOAServiceWeb/api/auth/register</p>
+        <p>Content-Type: application/json</p>
+        <p>{"username":"juan","password":"1234","role":"admin"}</p>
+        <h2><b>Metodo Autenticar</b></h2>
+        <p>POST: http://localhost:8080/SOAServiceWeb/api/auth/login</p>
+        <p>Content-Type: application/json</p>
+        <p>{"username":"juan","password":"1234","role":"admin"}</p>
+        <h2><b>Metodo Saludo:</b></h2>
+        <p>GET: http://localhost:8080/SOAServiceWeb/api/greetings/hello</p>
+        <p>Header PARAM:</p>
+        <p>user: juan</p>
+    </body>
+</html>
